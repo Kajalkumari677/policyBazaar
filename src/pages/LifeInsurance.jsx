@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import { TextField, Button } from "@mui/material";
 import "./LifeInsurance.css";
-import Navbar from "./Navbar";
+import Navbar from "../components/navbar/Navbar";
 export default function Termlife() {
   return (
     <div className="outer-container">
@@ -19,7 +19,7 @@ export default function Termlife() {
         <div className="insur-left">
           <div>
             <p className="insur-head">
-              1 Crore life cover at ₹490/month+
+               1 Crore life cover at ₹490/month+
               <br />
               <span>Get insured from the comfort of your home</span>
             </p>
