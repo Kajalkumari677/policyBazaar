@@ -20,7 +20,7 @@ export default function PayFor(){
 
        {
         value:1,
-        label:"20 Yearss",
+        label:"20 Years",
        },
 
        {

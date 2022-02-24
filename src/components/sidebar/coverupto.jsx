@@ -20,7 +20,7 @@ export default function CoverUpto(){
 
        {
         value:4,
-        label:"60 Yearss",
+        label:"60 Years",
        },
 
        {

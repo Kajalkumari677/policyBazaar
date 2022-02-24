@@ -21,6 +21,14 @@ export default function MaxLifeCheckout() {
               margin: "20px 30px ",
             }}
           >
+            <div className="Maxlife">
+              <div className="max-logo">
+                <img src="https://buylifeinsurance.policybazaar.com/maxssp/images/web/clientLogo.jpg"/>
+              </div>
+              <div className="logo-heading">
+              <h4>Smart Secure Plus</h4>
+              </div>
+            </div>
             <LifeCover />
             <CoverUpto />
             <PayFor />
@@ -59,10 +67,10 @@ export default function MaxLifeCheckout() {
         <div className="right-side-detail">
           <div className="detail-heading">
             <p>Your Details</p>
-            <p>---------</p>
-            <p>Upgrade your plan</p>
-            <p>---------</p>
-            <p>Add on Riders</p>
+           <span> <p>-----------</p></span>
+           <span> <p>Upgrade your plan</p></span>
+            <span><p>-----------</p></span>
+           <span> <p>Add on Riders</p></span>
           </div>
           <br />
           <div>Full name as per ID proof</div>
@@ -153,8 +161,8 @@ export default function MaxLifeCheckout() {
 
               <div className="desc-left">
                 <h3>Life Cover Amount</h3>
-                <p>Minimum : Rupee 25 Lacs</p>
-                <p>Maximum : Rupee 20 Crores</p>
+                <p>Minimum : ₹ 25 Lacs</p>
+                <p>Maximum : ₹ 20 Crores</p>
               </div>
             </div>
 
@@ -165,10 +173,10 @@ export default function MaxLifeCheckout() {
 
               <div className="desc-mid">
                 <h3>Cover yourself Uptot</h3>
-                <p>Minimum : Rupee 25 Lacs</p>
-                <p>(Policy Term 10 Years)</p>
-                <p>Maximum : Rupee 20 Crores</p>
-                (Policy Term 63 Years)
+                <p>Minimum : ₹ 25 Lacs</p>
+               <span><p> (Policy Term 10 Years)</p></span>
+                <p>Maximum : ₹ 20 Crores</p>
+                <span><p>(Policy Term 63 Years)</p></span>
               </div>
             </div>
 
@@ -179,18 +187,108 @@ export default function MaxLifeCheckout() {
 
               <div className="desc-right">
                 <h3>Frequency of payment</h3>
-                <p>Monthly Rupee Icon 428</p>
-                <p>Maximum : Rupee 20 Crores</p>
-                <p>QuarterlyRupee Icon 1,271</p> 
-                <p>Half YearlyRupee Icon 2,498</p>
-                <p>Yearly Rupee Icon 4,870</p>
-                <p>(save Rupee Icon 10108 in lifetime by choosing Yearly)</p>
+                <p>Monthly: ₹ 428</p>
+
+                <p>Quarterly:  ₹ 2,137</p>
+                <p>Half Yearly: ₹ 4,200 </p>
+                <p>Yearly:   ₹ 8,188  </p>
+                <span><p>(save Rupee Icon 10108 in lifetime by choosing Yearly)</p></span>
               </div>
             </div>
           </div>
         </div>
 
-        {/* *************** */}
+        {/* ******container-4********* */}
+
+        <div className="container-4">
+          <div className="heading-3">
+          <h3>Number of years you can pay for</h3>
+          </div>
+
+          <div className="outer-last-div">
+         
+            <div className="left-2">
+              <div className="img-div-first">
+                <img src="https://buylifeinsurance.policybazaar.com/maxssp/images/web/regularPay.svg" />
+              </div>
+
+              <div className="cont-div-first">
+                <h3>Regular Pay</h3>
+                <p>
+                  You pay premiums
+                  throughout<br/> the policy duration
+                </p>
+              </div>
+          </div>
+            
+            
+            <div className="mid2">
+              <div className="img-div-second">
+                <img src="https://buylifeinsurance.policybazaar.com/maxssp/images/web/limitedPay.svg" />
+              </div>
+
+              <div className="cont-div-second">
+                <h3>Limited Pay</h3>
+                <p>
+                Pay premiums for a few years and<br/> stay covered for the entire policy<br/> duration. Choose from 5, 10, 12<br/> and 15 years
+                </p>
+              </div>
+            </div>
+
+            <div className="right2">
+              <div className="img-div-last">
+                <img src="https://buylifeinsurance.policybazaar.com/maxssp/images/web/singlePay.svg" />
+              </div>
+
+              <div className="cont-div-last">
+                <h3>Single Pay</h3>
+                <p>
+                You pay premium only once and <br/>stay covered for the entire policy <br/> duration
+                </p>
+              </div>
+            </div>
+
+          </div>
+
+            {/* *********short-description****** */}
+            <div className="description"> 
+              <p>
+                **If you are a transgender, please select gender as male and
+                mark an email to service.helpdesk@maxlifeinsurance.com
+                <br />
+                #You can cancel the policy within 30 days of buying and get an
+                easy refund for your policy.However for cancellation requests
+                within 30 days of
+                <br /> issuance of the policy, the expenses incurred by the
+                company on medical examination and stamp duty charges shall be
+                deducted.
+              </p>
+           
+          </div>
+          </div>
+       
+
+        {/* *****footer**************/}
+
+        <div className="footer-last">
+          <p>
+            Policybazaar Insurance Brokers Private Limited (formerly known as
+            Policybazaar Insurance Web Aggregator Private Limited) CIN:
+            U74999HR2014PTC053454 | Registered Office - Plot No.119, Sector -
+            44, Gurgaon, Haryana – 122001
+            <br /> Policybazaar is now registered as a Direct Broker
+            Registration No. 742, Registration Code No. IRDA/ DB 797/ 19, Valid
+            till 09/06/2024, License category- Direct Broker (Life & General)
+            Visitors are hereby informed that their information <br />
+            submitted on the website may be shared with insurers. Product
+            information is authentic and solely based on the information
+            received from the insurers. © Copyright 2008-2022 policybazaar.com.
+            All Rights Reserved.
+          </p>
+        </div>
+
+
+        
       </div>
     </div>
   );
