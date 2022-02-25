@@ -1,3 +1,6 @@
+body{
+    font-family: 'Poppins', sans-serif;
+}
 .outer-container{ 
     border:1px solid red;
     width: 100%; 
@@ -43,13 +46,15 @@
     width: 98%;
     padding: 0%;
     padding-top: 8%;
-    margin:0%;
-    font-family: Merriweather;
+    margin-left: 35px;
+    margin-top: 0%;
+    /* font-family: Merriweather; */
     font-style: normal;
     font-weight: normal;
     font-size: 32px;
     line-height: 41px;
     color: #253858;
+    /* border: 1px solid red; */
 /* position: absolute;  */
 }
 .insur-head>span{
@@ -57,7 +62,7 @@
     padding: 0%;
     padding-top: 8%;
     margin:0%;
-    font-family: Merriweather;
+    /* font-family: Merriweather; */
     font-style: normal;
     font-weight: normal;
     font-size: 20px;
@@ -111,6 +116,20 @@
     font-size: 24px;
     color: white;
     background-color: orangered;
+    border-radius: 5px;
+}
+.input-detail>button:hover{
+    border:1px solid black;
+    font-size: 26px;
+
+}
+.input-detail>button>a{
+    text-decoration: none;
+    color:white
+}
+.input-detail>button>span{
+    margin-left: 10px;
+    text-decoration: none;
 }
 
 .footer-desc{

@@ -65,7 +65,9 @@ export default function MaxLifeCheckout() {
         </div>
 
         <div className="right-side-detail">
-          <div className="detail-heading">
+        
+        <div className="details">
+        <div className="detail-heading">
             <p>Your Details</p>
            <span> <p>-----------</p></span>
            <span> <p>Upgrade your plan</p></span>
@@ -104,11 +106,23 @@ export default function MaxLifeCheckout() {
             <option>Select</option>
 
             <option>Graduate</option>
-            <option>Professional</option>
+            <option>12th</option>
+            <option>Master</option>
             <option>Diploma</option>
           </select>
+          
         </div>
+
+
+        <div className="proceed">
+        <button><a href="">Proceed <span>→</span></a></button>
+        </div>
+        </div>
+        
+
+       
       </div>
+      
 
       {/* container-2*/}
 
@@ -172,7 +186,7 @@ export default function MaxLifeCheckout() {
               </div>
 
               <div className="desc-mid">
-                <h3>Cover yourself Uptot</h3>
+                <h3>Cover yourself Upto</h3>
                 <p>Minimum : ₹ 25 Lacs</p>
                <span><p> (Policy Term 10 Years)</p></span>
                 <p>Maximum : ₹ 20 Crores</p>

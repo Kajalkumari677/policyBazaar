@@ -48,7 +48,7 @@ export default function Termlife() {
             <input type="tel" placeholder="123-45-678" />
             <br />
             <br />
-            <button>View Free Quotes</button>
+            <button><a href="/checkout">View Free Quotes <span>→</span></a></button>
           </div>
         </div>
       </div>
