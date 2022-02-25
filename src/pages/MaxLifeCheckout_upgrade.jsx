@@ -97,6 +97,77 @@ export default function MaxLifeCheckout_upgrade() {
               </div>
           </div>
 
+         {/* ****** */}
+
+          <div className="first-box-1">
+              <div className="top-first">
+                <h3>Save money with limited pay</h3>
+                <div>
+                  <p>Most Popular</p>
+                </div>
+                <div className="add-button">
+                  <button>✚ Add</button>
+                </div>
+
+              </div>
+              <div className="bottom-first">
+                <p>Pay premiums for a few years and stay covered for the entire<br/> policy duration</p>
+
+              </div>
+              <div className="additional-1">
+                <p>10 Years</p>
+                <p>72%</p>
+              </div>
+          </div>
+
+            {/* ************ */}
+
+          <div className="first-box-1">
+              <div className="top-first">
+                <h3>Premium Back Option</h3>
+                <div>
+                  <p>Most Popular</p>
+                </div>
+                <div className="add-button">
+                  <button>✚ Add</button>
+                </div>
+
+              </div>
+              <div className="bottom-first">
+                <p>Get all your premium back in case nothing happens to<br/> you</p>
+
+              </div>
+              <div className="additional-1">
+                <p>Price</p>
+                <p>₹ 1,347 Monthly</p>
+              </div>
+          </div>
+
+          {/* ************** */}
+
+          <div className="first-box-1">
+              <div className="top-first">
+                <h3>Increasing Life Cover</h3>
+                <div>
+                  <p>Industry First</p>
+                </div>
+                <div className="add-button">
+                  <button>✚ Add</button>
+                </div>
+
+              </div>
+              <div className="bottom-first">
+                <p>Your life cover will be increased automatically at every policy <br/>anniversary for next 20 years at a rate of 5%(5 Lacs ) and your life<br/> cover will continue to be 2 Crores after 21st year.</p>
+
+              </div>
+              <div className="additional-1">
+                <p>Price</p>
+                <p>₹ 1,058
+ 
+ Monthly</p>
+              </div>
+          </div>
+
 
 
 

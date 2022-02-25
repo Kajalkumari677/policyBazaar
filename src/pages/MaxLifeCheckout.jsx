@@ -117,6 +117,7 @@ export default function MaxLifeCheckout() {
         <div className="proceed">
         <button><a href="/checkout/upgradePlan">Proceed <span>→</span></a></button>
         </div>
+        
         </div>
         
 
