@@ -3,8 +3,8 @@ import LifeCover from "../components/sidebar/lifecover";
 import CoverUpto from "../components/sidebar/coverupto";
 import Monthly from "../components/sidebar/monthly";
 import PayFor from "../components/sidebar/payfor";
-import "./MaxLifeCheckOut.css";
-export default function MaxLifeCheckout() {
+import "./MaxLifeCheckOut_upgrade.css";
+export default function MaxLifeCheckout_upgrade() {
   return (
     <div className="outer-div">
       {/* ***container-1***** */}
@@ -68,54 +68,51 @@ export default function MaxLifeCheckout() {
         
         <div className="details">
         <div className="detail-heading">
-            <p>Your Details</p>
+           <span> <p>Your Details</p></span>
            <span> <p>-----------</p></span>
-           <span> <p>Upgrade your plan</p></span>
+            <p>Upgrade your plan</p>
             <span><p>-----------</p></span>
            <span> <p>Add on Riders</p></span>
           </div>
           <br />
-          <div>Full name as per ID proof</div>
-          <input placeholder="Name" />
-          <br />
-          <br />
 
-          <div>Email Address</div>
-          <input placeholder="Email address" />
-          <br />
-          <br />
+          <div className="first-box-1">
+              <div className="top-first">
+                <h3>Premium Holiday Option</h3>
+                <div>
+                  <p>Industry First</p>
+                </div>
+                <div className="add-button">
+                  <button>✚ Add</button>
+                </div>
 
-          <div>Annual Income</div>
-          <input placeholder="Annual Income" />
-          <br />
-          <br />
+              </div>
+              <div className="bottom-first">
+                <p>You get an option to skip your premiums (for a year) twice Info Icon during your <br/>policy term and still you will be covered during the holiday period</p>
 
-          <div>Occupation </div>
-          <select className="options">
-            <option>Select</option>
-            <option>Salaried</option>
-            <option>Professional</option>
-            <option>Students</option>
-            <option>others</option>
-          </select>
-          <br />
-          <br />
-          <div>Education</div>
-          <br />
-          <select className="options">
-            <option>Select</option>
+              </div>
+              <div className="additional-1">
+                <p>Additional Premium</p>
+                <p>₹ 54 Monthly</p>
+              </div>
+          </div>
 
-            <option>Graduate</option>
-            <option>12th</option>
-            <option>Master</option>
-            <option>Diploma</option>
-          </select>
-          
+
+
+
+
+
         </div>
+
+        {/* *********** */}
+
+        
+        
+        
 
 
         <div className="proceed">
-        <button><a href="/checkout/upgradePlan">Proceed <span>→</span></a></button>
+        <button><a href="/checkout/upgradeplan/AddOnRider">Proceed <span>→</span></a></button>
         </div>
         </div>
         

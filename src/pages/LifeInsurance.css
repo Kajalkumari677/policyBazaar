@@ -84,6 +84,10 @@ body{
 
     color: #253858;
 }
+/* .check-male{
+background-color: orange;
+width:300px;
+} */
 .insur-head-info>p{
     display:flex;
     gap: 20px;

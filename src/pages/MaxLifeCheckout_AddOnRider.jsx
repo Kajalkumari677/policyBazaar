@@ -3,8 +3,8 @@ import LifeCover from "../components/sidebar/lifecover";
 import CoverUpto from "../components/sidebar/coverupto";
 import Monthly from "../components/sidebar/monthly";
 import PayFor from "../components/sidebar/payfor";
-import "./MaxLifeCheckOut.css";
-export default function MaxLifeCheckout() {
+import "./MaxLifeCheckout_AddOnRider.css";
+export default function MaxLifeCheckout_AddOnRider() {
   return (
     <div className="outer-div">
       {/* ***container-1***** */}
@@ -75,47 +75,13 @@ export default function MaxLifeCheckout() {
            <span> <p>Add on Riders</p></span>
           </div>
           <br />
-          <div>Full name as per ID proof</div>
-          <input placeholder="Name" />
-          <br />
-          <br />
 
-          <div>Email Address</div>
-          <input placeholder="Email address" />
-          <br />
-          <br />
-
-          <div>Annual Income</div>
-          <input placeholder="Annual Income" />
-          <br />
-          <br />
-
-          <div>Occupation </div>
-          <select className="options">
-            <option>Select</option>
-            <option>Salaried</option>
-            <option>Professional</option>
-            <option>Students</option>
-            <option>others</option>
-          </select>
-          <br />
-          <br />
-          <div>Education</div>
-          <br />
-          <select className="options">
-            <option>Select</option>
-
-            <option>Graduate</option>
-            <option>12th</option>
-            <option>Master</option>
-            <option>Diploma</option>
-          </select>
           
         </div>
 
 
         <div className="proceed">
-        <button><a href="/checkout/upgradePlan">Proceed <span>→</span></a></button>
+        <button><a href="">Proceed <span>→</span></a></button>
         </div>
         </div>
         

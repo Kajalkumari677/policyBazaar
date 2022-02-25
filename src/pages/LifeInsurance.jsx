@@ -32,7 +32,10 @@ export default function Termlife() {
           </div>
 
           <div className="input-gender">
-            <input placeholder="Male" readOnly />
+           
+             
+              <input placeholder="Male"  readOnly />
+            
             <br />
             <input placeholder="Female" readOnly />
             <br />
