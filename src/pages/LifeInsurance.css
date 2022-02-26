@@ -96,12 +96,14 @@ width:300px;
 }
 .input-gender{
     display: flex;
-    width:300px;
+    width:30%;
     height: 40px;;
     margin-left: 90px;
     gap:33px;
     border-radius: 10px;
+    border:1px solid red;
 }
+
 .input-detail{
     /* border: 1px solid red;; */
     width:fit-content;
