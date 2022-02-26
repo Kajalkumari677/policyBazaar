@@ -120,14 +120,80 @@ margin-left: 30px;
     color: rgb(109, 108, 108);
     font-size: large;
 }
-
-.detail-heading~input{
-    width:80%;
-    height:40px;
-    border-top: 1px solid transparent;
-    border-left:1px solid  transparent;
-    border-right:1px solid  transparent;
+.first-box-a{
+    border:1px solid rgb(204, 200, 200);
+    width:90%;
+    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
+    padding:10px;
+    margin-bottom: 20px;;
+    
 }
+.top-first-a{
+    /* border:1px solid blue; */
+    display:flex;
+    gap:380px;
+    
+    
+}
+.top-first>h3{
+    /* border:1px solid blue; */
+}
+.mid-first{
+    display:flex;
+    gap:100px;
+}
+.popular-img>img{
+    width:80px;
+    height:70px;
+}
+
+.critical-p{
+    display: flex;
+    gap:440px;
+    font-size: 13px;;
+    color:lightslategray
+}
+.cover-head{
+    display: flex;
+    gap:370px;
+}
+.amount-year{
+    display: flex;
+    gap:450px;
+}
+.additional-1{
+    border-top:1px solid rgb(197, 194, 194);
+    display: flex;
+    gap:460px;
+    font-size: 13px;;
+    color:lightslategray
+}
+.top-first>div>p{
+    /* border:1px solid red; */
+    background-color: rgb(47, 129, 223);
+    color:white;
+    font-size: 14px;;
+    margin-top: 20px;;
+    padding:5px;
+    font-weight: lighter;
+    font-family: sans-serif;
+}
+.add-button-a{
+    /* border:1px solid pink; */
+    padding:10px;
+
+    width:100px;
+}
+.add-button-a>button{
+    width:70%;
+    height:30px;
+    border-radius: 5px;;
+    color:rgb(59, 147, 230);
+    border:1px solid rgb(78, 158, 223)
+}
+
+
+
 .proceed{
     width:200px;
     height: 60px;

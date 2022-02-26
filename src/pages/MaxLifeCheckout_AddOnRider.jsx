@@ -68,16 +68,58 @@ export default function MaxLifeCheckout_AddOnRider() {
         
         <div className="details">
         <div className="detail-heading">
-            <p>Your Details</p>
+           <span> <p>Your Details</p></span>
            <span> <p>-----------</p></span>
            <span> <p>Upgrade your plan</p></span>
             <span><p>-----------</p></span>
-           <span> <p>Add on Riders</p></span>
+            <p>Add on Riders</p>
           </div>
           <br />
+               
+          <div className="first-box-a">
+              <div className="top-first-a">
+                <h3>Critical Illness Benefit</h3>
 
+                <div className="add-button-a">
+                  <button>✚ Add</button>
+                </div>
+              </div>
+
+                <div className="mid-first">
+                <div className="para1">
+                  <p>Pays you an additional lumpsum amount if you are diagnosed<br/> with a Critical Illness.</p>
+                </div>
+                <div className="popular-img">
+                  <img src="https://buylifeinsurance.policybazaar.com/maxssp/images/web/mostPopularStump.png"/>
+                </div>
+              </div>
+
+             
+              <div className="bottom-first">
+               <div className="critical-p">
+                 <p>critical illness variant</p>
+                 <p>Cover Value</p>
+               </div>
+
+               <div className="cover-head">
+                 <h3>Cover 64 Critical illness</h3>
+                 <h3>5 Lacs</h3>
+               </div>
+
+              </div>
+              <div className="additional-1">
+                <p>Additional Premium</p>
+                <p>Policy Term</p>
+              </div>
+              <div className="amount-year">
+                <h3>₹ 159 Monthly</h3>
+                <h3>38 Years</h3>
+              </div>
+          </div>
           
         </div>
+
+       
 
 
         <div className="proceed">

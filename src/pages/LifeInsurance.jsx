@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import { TextField, Button } from "@mui/material";
 import "./LifeInsurance.css";
-import Navbar from "../components/navbar/Navbar";
+
 export default function Termlife() {
   return (
     <div className="outer-container">
