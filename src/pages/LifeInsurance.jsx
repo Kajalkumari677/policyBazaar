@@ -34,11 +34,13 @@ export default function Termlife() {
           <div className="input-gender">
            
              
-              <input placeholder="Male"  readOnly />
-            
-            <br />
-            <input placeholder="Female" readOnly />
-            <br />
+              <div style={{width:"3%"}}>
+              <input type="checkbox" />
+               <input style={{width:""}} placeholder="M"readOnly />
+               <input type="checkbox" />
+               <input style={{width:""}} placeholder="M"readOnly />
+              </div>
+         
           </div>
 
           <div className="input-detail">

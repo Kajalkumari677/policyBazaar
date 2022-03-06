@@ -141,7 +141,7 @@ width:300px;
 .footer-desc{
     width: 62%;
     padding: 0% 18% 0% 18%;
-    left: calc(52% - 833px/2 + 0.5px);
+    
     bottom: 162px;
     font-family: Roboto;
     font-style: normal;
